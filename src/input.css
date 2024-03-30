@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* General Styling */
+:root {
+  --body-font: "PT Sans Caption", sans-serif;
+  --heading-font: Pacifico, cursive;
+  --sub-heading-font: Righteous, cursive;
+}
+body {
+  font-family: var(--body-font);
+  background-color: #f7ecde;
+}
+h1 {
+  font-family: var(--heading-font);
+}
+h2 {
+  font-family: var(--sub-heading-font);
+}
+.main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-header .title {
+  background-color: rgb(254, 194, 96);
+  transition: 0.3s all ease;
+}
+.main-header h1:hover .title {
+  height: 31px;
+}
+
+.hr {
+  border: 2px dotted #000;
+  border-style: none none dotted;
+  color: #fff;
+  background-color: #fff;
+}
+h2 {
+  font-family: var(--sub-heading-font);
+  background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+  background-clip: text;
+  color: transparent;
+}
+h2 .icon:first-child {
+  color: #42a55c;
+}
+h2 .icon:last-child {
+  color: #b1ac4a;
+}

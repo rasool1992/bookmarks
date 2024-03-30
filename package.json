@@ -4,13 +4,13 @@
   "description": "bookmarks",
   "main": "index.js",
   "scripts": {
-    "build": "npx tailwindcss -i ./src/input.css -o ./build/styles/style.css --watch",
-    "prettier": "npx prettier --write build/index.html"
+    "build": "npx tailwindcss -i ./src/input.css -o ./build/styles/style.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.13",
     "tailwindcss": "^3.4.3"
   }
