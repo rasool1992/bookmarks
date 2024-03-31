@@ -50,3 +50,6 @@ h2 .icon:first-child {
 h2 .icon:last-child {
   color: #b1ac4a;
 }
+.form input:focus {
+  outline: 0.1rem solid rgb(254, 194, 96);
+}
