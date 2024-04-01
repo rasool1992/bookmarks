@@ -53,3 +53,6 @@ h2 .icon:last-child {
 .form input:focus {
   outline: 0.1rem solid rgb(254, 194, 96);
 }
+.error-outline {
+  outline: 0.1rem solid red;
+}
